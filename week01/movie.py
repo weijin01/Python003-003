@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36'
-url = 'http://www.sun0575.com/t/movie.html'
+url = 'https://movie.douban.com/top250'
 header = {'user-agent':user_agent}
 response = requests.get(url,headers=header)
 
